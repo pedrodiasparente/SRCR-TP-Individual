@@ -54,7 +54,7 @@ profundidade_melhor_carr(Origem, Dest, His, C):-
             paragem(Dest,_,_,_,_,_,_,CarrD,_,_,_),
             paragem(Prox,_,_,_,_,_,_,CarrP,_,_,_),
             CarrP \= CarrD,
-            profundidade_melhor(Prox,Dest,His,C).
+            profundidade_melhor_carr(Prox,Dest,[Prox|His],C).
 
 %--------------------------------------------
 

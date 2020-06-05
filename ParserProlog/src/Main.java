@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         try {
-            FileReader reader = new FileReader("prolog/lista_adjacencias_paragens2.csv");
+            FileReader reader = new FileReader("prolog/lista_adjacencias_paragens.csv");
 
             try (BufferedReader br = new BufferedReader(reader)) {
                 ArrayList<String> lines = new ArrayList<>();
